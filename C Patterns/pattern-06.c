@@ -8,6 +8,7 @@ Here is the demo of pattern.
 */
 
 
+
 #include <stdio.h>
 int main()
 {
