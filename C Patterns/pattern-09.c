@@ -6,3 +6,22 @@ Here is the demo of pattern.
 1 4 2 4 3 4
 1 5 2 5 3 5
 */
+
+
+#include <stdio.h>
+int main()
+{
+
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 1; i <=n; i++)
+    {
+        for (int j = 1; j <=n-2; j++)
+        {
+            printf("%d %d ", j, i);
+        }
+        printf("\n");
+    }
+    return 0;
+}
